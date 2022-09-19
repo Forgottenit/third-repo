@@ -1,33 +1,50 @@
-header {
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Rubik+Dirt&family=Rubik+Iso&family=Rubik+Marker+Hatch&family=Slabo+13px&family=Source+Sans+3:wght@300;600&display=swap');
 
-    background-color: hwb(80 95% 4%);
-    font-style: italic;
-    padding: auto;
-    margin: auto;
-    width: 77%;
-    height: 100%;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    
+body {
+    border-top:solid 0.5em hsl(26, 87%, 67%);
+    border-left: solid 0.5em hsl(26, 87%, 67%);
 }
+
+/* font-family: 'Rubik Burned', cursive;
+font-family: 'Rubik Dirt', cursive;
+font-family: 'Rubik Iso', cursive;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Slabo 13px', serif;
+font-family: 'Source Sans 3', sans-serif; */
 
 #logo {
     color: #3f6c51;
-    font-size: 3em;
-    font-style: italic;
+    font-size: 7em;
+    font-family: "Slabo 13px";
+    /* font-style: italic; */
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding: 0;
+    margin: 8px;
+
+
 }
+
+/* .top-menu{
+    display: flex;
+    padding: auto;
+    margin: 0.5em;
+} */
+
 
 .menu-items {
     display: flex;
-    padding: auto;
-    gap: 60px;
-    align-items: center;
-    color:#3f6c51;
-    justify-content: right;
-    font-size: 1.25em;
-    overflow-y: auto;
-    overflow-x: auto;
+    padding: 0;
+    gap: 1em;
+    justify-content: left;
+    color: #3f6c51;
+    font-style: "Source sans 3";
+    font-size: 2em;
+    width: 100%;
+    box-sizing: border-box;
+
+
 }
 
 li {
@@ -36,50 +53,146 @@ li {
 }
 
 .hero-img {
-    padding : auto;
+    padding: auto;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 #top-img {
     height: 77%;
     width: 77%;
-   
-    border: 1px solid black;
-    
+    transform-style: preserve-3d;
 }
 
+.about{
+    position:relative;
+    background:rgba(0, 0, 0, 0) url(images/img-ancient-greek-philosophers.jpg) no-repeat center;
+    /* opacity: calc(.5); */
+    width: 100%;
+    height: 600px;
+
+}
+
+
+
 .intro {
-    width: 33%;
-    background-color: #f17518;
-    margin: 10px auto;
-    padding: 10px;
+    width: 70%;
+    background-color: #c8bfc7;
+    margin: 1em auto;
+    padding: 1em;
     text-align: center;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    font-size: 2em;
+    
 }
 
-.welcome {
-    width: 70%;
+.welcome1 {
+    /* width: 70%;
     padding: 0;
-    margin: 0;
+    margin: 2em; */
     border: 1px solid black;
-    font-size: 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Rubik Burned";
     color: #3f6c51;
     background-color: hwb(80 95% 4%);
     display: flex;
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 2em;
+    width: auto;
+    height: auto;
 }
+
+#image1{
+    background: url("images/istockphoto-670415178-612x612.jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#image2{
+    background: url("images/img-ancient-greek-philosophers.jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}#image3{
+    background: url("images/download.jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#image4{
+    background: url("images/Greek-Philosopher-aristotle.jpg") no-repeat;
+    height:270px;
+    width: 270px;
+    border-radius:50%;
+    position: absolute;
+}
+.welcome2{
+    width: 70%;
+    padding: 0;
+    margin: 2em;
+    border: 1px solid black;
+    
+    font-family: "Rubik dirt";
+    color: #3f6c51;
+    background-color: hwb(80 95% 4%);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+
+}
+
+.welcome3{
+    width: 70%;
+    padding: 0;
+    margin: 2em;
+    border: 1px solid black;
+    font-family: "Rubik iso";
+    color: #3f6c51;
+    background-color: hwb(80 95% 4%);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.welcome4{
+    width: 70%;
+    padding: 0;
+    margin: 2em;
+    border: 1px solid black;
+    font-family:"Rubik marker hatch";
+    color: #3f6c51;
+    background-color: hwb(80 95% 4%);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    
+    }
+
 
 h1 {
     font-style: italic;
 }
 
-li:hover {
-    color: #f17518;
-    font-size: 150%;
-    transition: ease-in 1s;
+@media screen and (min-width:490px) {
+
+
+    li:hover {
+        color: #f17518;
+        font-size: 150%;
+        transition: ease-in 1s;
+        justify-content: right;
+
+    }
+
 }
