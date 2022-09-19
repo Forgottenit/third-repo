@@ -3,6 +3,7 @@
 body {
     border-top: solid 0.5em hsl(26, 87%, 67%);
     border-left: solid 0.5em hsl(26, 87%, 67%);
+    margin: 0;
 }
 
 /* font-family: 'Rubik Burned', cursive;
@@ -16,6 +17,7 @@ font-family: 'Source Sans 3', sans-serif; */
     color: #3f6c51;
     font-size: 7em;
     font-family: "Slabo 13px";
+    letter-spacing: .5em;
     /* font-style: italic; */
     display: flex;
     justify-content: left;
@@ -84,7 +86,9 @@ li {
     width: 77%;
     transform-style: preserve-3d;
 } */
-
+#orange{
+    color:#f17518;
+}
 .about {
     font-size: 5em;
     font-family: "Slabo 13px";
