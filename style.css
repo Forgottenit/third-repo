@@ -1,0 +1,85 @@
+header {
+
+    background-color: hwb(80 95% 4%);
+    font-style: italic;
+    padding: auto;
+    margin: auto;
+    width: 77%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#logo {
+    color: #3f6c51;
+    font-size: 3em;
+    font-style: italic;
+}
+
+.menu-items {
+    display: flex;
+    padding: auto;
+    gap: 60px;
+    align-items: center;
+    color:#3f6c51;
+    justify-content: right;
+    font-size: 1.25em;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+li {
+    list-style: none;
+
+}
+
+.hero-img {
+    padding : auto;
+    display: flex;
+    justify-content: center;
+}
+
+#top-img {
+    height: 77%;
+    width: 77%;
+   
+    border: 1px solid black;
+    
+}
+
+.intro {
+    width: 33%;
+    background-color: #f17518;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome {
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3f6c51;
+    background-color: hwb(80 95% 4%);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-style: italic;
+}
+
+li:hover {
+    color: #f17518;
+    font-size: 150%;
+    transition: ease-in 1s;
+}
